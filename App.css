@@ -1,0 +1,119 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e0e0e0; /* grey */
+  padding: 10px 20px;
+  color: black;
+}
+
+.nav-left {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Search bar */
+.search-bar {
+  padding: 6px 10px;
+  width: 300px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+.nav-right a {
+  margin-left: 15px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
+
+/* Center page layout */
+.page-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* makes form vertically centered */
+}
+
+/* Form box */
+.form-box {
+  width: 320px;
+  padding: 25px;
+  border: 1px solid #1976d2;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  position: relative;
+}
+
+/* Titles */
+.form-box h2 {
+  margin-bottom: 20px;
+  color: #1976d2;
+  font-size: 18px;
+}
+
+/* Inputs */
+.form-box input {
+  display: block;
+  width: 90%;
+  margin: 12px auto;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.form-box button:hover {
+  background: #0d47a1;
+}
+
+/* Top-right link (Sign up in Login / Login in Sign up) */
+.signup-link {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.signup-link a {
+  font-size: 14px;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraph text */
+.form-box p {
+  margin-top: 10px;
+  font-size: 13px;
+}
