@@ -1,0 +1,78 @@
+.footer {
+  background-color: #298080;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  padding: 20px;
+}
+
+.newsletter {
+  background-color: #dcdcdc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter input {
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #333;
+}
+
+.newsletter button {
+  margin-left: 5px;
+  padding: 8px 12px;
+  background-color: #808080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin: 5px 0;
+}
+
+.socials a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.bottom {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.links span {
+  margin: 0 10px;
+}
+
+.response {
+  margin-top: 10px;
+  background: #fff;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
